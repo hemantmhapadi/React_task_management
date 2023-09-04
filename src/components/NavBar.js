@@ -5,7 +5,6 @@ import { Modal, Box, Typography, Button } from '@mui/material';
 import CreateTask from './CreateTask';
 
 
-
 function NavBar () {
   const [open, setOpen] = useState(false); // State variable to control the visibility of the modal
   const navigate = useNavigate(); // React Router hook for programmatic navigation

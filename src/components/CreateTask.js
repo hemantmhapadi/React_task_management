@@ -41,7 +41,7 @@ const CreateTask = () => {
 
     navigate('/', { replace: true, state: { title, description, priority } });
     
-    
+
   };
 
   return (
